@@ -46,7 +46,7 @@ There are 2 important question we are think about :
 |       Accuracy             |    71.24330468628904    |  71.39314193203934   |        72.0321030604688        |        72.18538484060417       |
 
 
-#### The best models for Classificatiion when we use split data train and test are RandomForestRegressor and AdaBoostClassifier, they have high Accuracy 
+#### The best models for Classificatiion when we use split data train and test are RandomForestRegressor and AdaBoostClassifier, they have high Accuracy 
 
 
   
