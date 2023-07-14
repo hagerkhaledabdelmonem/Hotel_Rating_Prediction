@@ -30,7 +30,7 @@ There are 2 important question we are think about :
 
 #### Regression Models Table :
 
-|    Classification Models   |  Lasso_cv  |    Linear Regression     |       RandomForestRegressor           |          DecisionTree         |      Polynomial Regression      |  
+|    Regression Models   |  Lasso_cv  |    Linear Regression     |       RandomForestRegressor           |          DecisionTree         |      Polynomial Regression      |  
 |         :----:             |       :----:          |        :----:        |      :----:         |         :----:       |         :----:       |
 |         R_square           | 0.38633161183320464   |  0.3863816691747861  |       0.4473832302938534         |           0.40971277175647103       |    0.4283665577931427  |
 |        Mean Square Error      |  1.6544396419474405   |  1.65430468819737 |  1.4898455065250795 |  1.591404428471118   |     1.5411141353966     |
