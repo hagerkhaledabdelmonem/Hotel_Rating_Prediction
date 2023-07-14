@@ -28,7 +28,7 @@ There are 2 important question we are think about :
 - Choose two hyperparameters to vary. Study at three different choices for each hyperparameter. When varying one hyperparameter, all the other hyperparameters should be fixed.
 
 
-### Regression Models Table :
+## Regression Models Table :
 
 |    Regression Models   |  Lasso_cv  |    Linear Regression     |       RandomForestRegressor           |          DecisionTree         |      Polynomial Regression      |  
 |         :----:             |       :----:          |        :----:        |      :----:         |         :----:       |         :----:       |
@@ -36,17 +36,17 @@ There are 2 important question we are think about :
 |        Mean Square Error      |     1.658180518548482   |  1.6581805314581195 |  1.482674333022735 |  1.5858714287251607   |     1.5255726801344527     |
 
 
-#### The best models when we use split data train , validation and test are RandomForestRegressor , DecisionTreeRegressor and Linear or Lasso_CV because they have high R_square score and low mean square error
+### The best models when we use split data train , validation and test are RandomForestRegressor , DecisionTreeRegressor and Linear or Lasso_CV because they have high R_square score and low mean square error
 
 
-### Classification Models Table :
+## Classification Models Table :
 
 |    Classification Models   |    LogisticRegression   |    Decision Tree     |       RandomForestClassifier   |        AdaBoostClassifier      |  
 |         :----:             |       :----:            |        :----:        |            :----:              |              :----:            |
 |       Accuracy             |    71.24330468628904    |  71.39314193203934   |        72.0321030604688        |        72.18538484060417       |
 
 
-#### The best models for Classificatiion when we use split data train and test are RandomForestRegressor and AdaBoostClassifier, they have high Accuracy 
+### The best models for Classificatiion when we use split data train and test are RandomForestRegressor and AdaBoostClassifier, they have high Accuracy 
 
 
   
