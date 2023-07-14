@@ -13,6 +13,7 @@ There are 2 important question we are think about :
 - Apply pre-processing on the provided dataset. (Preprocess all the features even if we won’t use them later after feature selection)
 - Apply Feature Selection and Experiment with regression techniques to reduce the error on prediction of the **Reviewer Score** 
 - Drop a feature only after preprocessing and with valid reason)
+- Apply sentiment analysis using the review column
 
 ## Preprocessing: 
 - Before building models, We need to make sure that the dataset is clean and ready-to-use.
@@ -43,10 +44,9 @@ There are 2 important question we are think about :
 
 #### Classification Models Table :
 
-|    Classification Models   |  LogisticRegression  |    Decision Tree     |       SVM           |          KNN         |  
-|         :----:             |       :----:         |        :----:        |      :----:         |         :----:       |
-|      Train Accuracy        |0.907035175879397   |  0.9371859296482412  |        0.9422110552763819         |           0.9221105527638191       |
-|      Test Accuracy         |  0.9298245614035088   |  0.9181286549707602  |  0.8713450292397661 |  0.8888888888888888  |
+|    Classification Models   |    LogisticRegression   |    Decision Tree     |       RandomForestClassifier   |        AdaBoostClassifier      |  
+|         :----:             |       :----:            |        :----:        |            :----:              |              :----:            |
+|       Accuracy             |    71.24330468628904    |  71.39314193203934   |        72.0321030604688        |        72.18538484060417       |
 
 
 
